@@ -1191,6 +1191,32 @@ a:hover {
 /*************************/
 /*     Media Queries     */
 /*************************/	
+
+/*Max-width 400px*/
+@media (min-width: 300px) {
+	iframe{
+		display: flex;
+		left: auto;
+		right: auto;
+		width: 350px;
+		height: 190px;
+	}
+}
+/*End Max-width 400px*/
+
+
+/*Max-width 500px*/
+@media (max-width: 500px) {
+	iframe{
+		display: flex;
+		left: auto;
+		right: auto;
+		width: 390px;
+		height: 210px;
+	}
+}
+/*End Max-width 500px*/
+
 /* Min-width 768px */
 @media (min-width: 768px) {
 
@@ -1216,7 +1242,13 @@ a:hover {
 	}
 	/* end of header */
 
-
+	iframe{
+		display: flex;
+		left: auto;
+		right: auto;
+		width: 1110px;
+		height: 590px;
+	}
 	/* Process */
 	.basic-5 .step {
 		display: inline-block;
